@@ -21,6 +21,8 @@ To begin, you will need to clone this GitHub repository :
 ```bash
 git clone https://github.com/Goodnight77/Deep-fake-Forensics-Challenge.git
 ```
+## Dataset
+The hole dataset we used to train our model can be downloaded from kaggle using this [link](https://www.kaggle.com/datasets/mohamedbenticha/tsyp-cs-challenge).
 
 ## Reproduce Results
 
