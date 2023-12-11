@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.applications.resnet50 import preprocess_input
 from tqdm import tqdm
 
-# Initialize lists to store F1 scores
+# lists to store F1 scores
 label_scores = []
 labels=[]
 predicted_labels=[]
