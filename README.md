@@ -13,7 +13,7 @@ This repository contains the code and documentation for the CS Challenge on Shal
 ## Table of Contents
 
 - [Getting Started](##Getting-Started)
-- [Enhance Results](##Usage)
+- [Usage](##Usage)
 - [Dataset](##Dataset)
 - [Train/Val/Test](##Train/Val/Test)
 
