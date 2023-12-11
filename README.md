@@ -13,7 +13,6 @@ This repository contains the code and documentation for the CS Challenge on Shal
 - [Reproduce Results](#reproduce-results)
 - [Enhance Results](#enhance-results)
 - [Scientific Paper](#scientific-paper)
-- [Startup Development](#startup-development)
 - [Getting Started](#getting-started)
 
 ## Preparation 
@@ -34,9 +33,6 @@ Explore opportunities to improve the research findings in the `enhance_results/`
 
 The `scientific_paper/` directory contains the comprehensive scientific paper that documents the work conducted. Please refer to this section for a detailed overview of the research methodology, results, and conclusions.
 
-## Startup Development
-
-In the `startup_development/` directory, you'll find details about the formulated startup idea, including the business model and short-term goals. This section aims to ensure the sustainability of the project beyond the research phase.
 
 ## Getting Started
 
