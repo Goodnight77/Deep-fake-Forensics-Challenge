@@ -9,16 +9,13 @@ Localization Using Deep Learning
 
 This repository contains the code and documentation for the CS Challenge on Shallow- and Deep-Fake Image Manipulation Localization Using Deep Learning. The challenge involves replicating and enhancing the results of a research paper, drafting a scientific paper, and formulating a startup idea.
 
-## Scientific Paper
-
-The `scientific_paper/` directory contains the comprehensive scientific paper that documents the work conducted. Please refer to this section for a detailed overview of the research methodology, results, and conclusions.
 
 ## Table of Contents
 
-- [Reproduce Results](#reproduce-results)
-- [Enhance Results](#enhance-results)
-- [Scientific Paper](#scientific-paper)
-- [Getting Started](#getting-started)
+- [Getting Started](##Getting-Started)
+- [Enhance Results](##Usage)
+- [Dataset](##Dataset)
+- [Train/Val/Test](##Train/Val/Test)
 
 ## Getting Started
 
