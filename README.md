@@ -23,11 +23,11 @@ git clone https://github.com/Goodnight77/Deep-fake-Forensics-Challenge.git
 
 ## Reproduce Results
 
-To replicate the outcomes of the research paper, follow the instructions in the `reproduce_results/` directory. This includes training deep learning models on the provided dataset and evaluating them using the designated test set.
+To replicate the outcomes of the research paper, follow the instructions in the `` directory. This includes training deep learning models on the provided dataset and evaluating them using the designated test set.
 
 ## Enhance Results
 
-Explore opportunities to improve the research findings in the `enhance_results/` directory. This may involve experimenting with different deep learning models, utilizing alternative datasets, or employing distinct evaluation metrics to achieve superior outcomes.
+Explore opportunities to improve the research findings in the `` directory. This may involve experimenting with different deep learning models, utilizing alternative datasets, or employing distinct evaluation metrics to achieve superior outcomes.
 
 ## Scientific Paper
 
