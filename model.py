@@ -148,8 +148,8 @@ def build_resnet50_unet(input_shape=(256, 256, 3)):
     encoder_model = build_encoder(input_shape)
     encoder_layers=encoder_model(inputs)
     encoder_layers_bayer=encoder_model(x)
-    num_layers = len(encoder_layers)  # Assuming both lists have the same length
-    # Create a list to store the concatenated layers
+    num_layers = len(encoder_layers) 
+    #list to store the concatenated layers
     concatenated_layers_list = []
     for layer,layer_bayar in zip(encoder_layers, encoder_layers_bayer):
         concatenated_layers=concatenate([layer,layer_bayar], axis=-1)
