@@ -27,7 +27,6 @@ class DataGeneratorA(tf.keras.utils.Sequence):
         )
         if self.augment:
             self.image_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
-                # Add your desired augmentation parameters here
                 rotation_range=45,
                 width_shift_range=0.2,
                 height_shift_range=0.2,
