@@ -20,7 +20,6 @@ This repository contains the code and documentation for the CS Challenge on Shal
 To begin, you will need to clone this GitHub repository :
 ```bash
 git clone https://github.com/your-username/your-repo.git
-cd your-repo
 ```
 
 ## Reproduce Results
