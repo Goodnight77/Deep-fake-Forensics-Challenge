@@ -1,5 +1,6 @@
 from model import build_resnet50_unet
-from utils_data import Utils
+from utils import DataGeneratorA
+from utils import DataGeneratorNA
 import argparse
 
 if __name__ == "__main__" :
