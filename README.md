@@ -16,6 +16,13 @@ This repository contains the code and documentation for the CS Challenge on Shal
 - [Startup Development](#startup-development)
 - [Getting Started](#getting-started)
 
+## Preparation 
+To begin, you will need to clone this GitHub repository :
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
+
 ## Reproduce Results
 
 To replicate the outcomes of the research paper, follow the instructions in the `reproduce_results/` directory. This includes training deep learning models on the provided dataset and evaluating them using the designated test set.
