@@ -15,8 +15,6 @@ This repository contains the code and documentation for the CS Challenge on Shal
 - [Scientific Paper](#scientific-paper)
 - [Startup Development](#startup-development)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Reproduce Results
 
@@ -41,11 +39,3 @@ Follow these steps to get started with the project:
 1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
 2. Navigate to the relevant directories for each challenge.
 3. Follow the instructions provided in each directory to replicate, enhance, and document the results.
-
-## Contributing
-
-If you'd like to contribute to this project, please review our [Contribution Guidelines](CONTRIBUTING.md) for more information.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
