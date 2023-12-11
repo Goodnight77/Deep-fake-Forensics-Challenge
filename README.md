@@ -45,6 +45,3 @@ The hole dataset we used to train our model can be downloaded from kaggle using 
 
 ## Train/Val/Test
 The way (file paths) of how we split the datasets into train/val/test subsets can be downloaded [link](https://www.dropbox.com/s/opjpz9hoy5xm4um/paths.zip?dl=0).
-
-## Reproduce Results
-To replicate the outcomes of the research paper, follow the instructions in the `` directory. This includes training deep learning models on the provided dataset and evaluating them using the designated test set.
