@@ -48,10 +48,3 @@ The way (file paths) of how we split the datasets into train/val/test subsets ca
 
 ## Reproduce Results
 To replicate the outcomes of the research paper, follow the instructions in the `` directory. This includes training deep learning models on the provided dataset and evaluating them using the designated test set.
-
-
-
-
-1. Clone the repository: `git clone https://github.com/Goodnight77/Deep-fake-Forensics-Challenge`
-2. Navigate to the relevant directories for each challenge.
-3. Follow the instructions provided in each directory to replicate, enhance, and document the results.
