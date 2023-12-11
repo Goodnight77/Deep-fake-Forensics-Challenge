@@ -2,6 +2,40 @@
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
+import tensorflow as tf
+from tqdm import tqdm
+from tensorflow.keras import backend as K
+from tensorflow import keras
+from tensorflow.keras import layers
+
+#this is the set of learnable filters 
+class BayarConv2d(tf.keras.layers.Layer):
+    def __init__(self, in_channels, out_channels, kernel_size=5, stride=1, padding=0):
+        super(BayarConv2d, self).__init__()
+        self.in_channels = in_channels
+        self.out_channels = out_channels
+        self.kernel_size = kernel_size
+        self.stride = stride
+        self.padding = padding
+        self.minus1 = tf.ones((self.in_channels, self.out_channels, 1)) * -1.000
+
+        # only (kernel_size ** 2 - 1) trainable params as the center element is always -1
+        self.kernel = self.add_weight(shape=(self.in_channels, self.out_channels, kernel_size ** 2 - 1),
+                                      initializer='random_normal',
+                                      trainable=True)
+
+    def bayarConstraint(self):
+        kernel_permuted = tf.transpose(self.kernel, perm=[2, 0, 1])
+        kernel_sum = tf.reduce_sum(kernel_permuted, axis=0)
+        ctr = self.kernel_size ** 2 // 2
+        real_kernel = tf.concat([self.kernel[:, :, :ctr], self.minus1, self.kernel[:, :, ctr:]], axis=2)
+        real_kernel = tf.reshape(real_kernel, (self.out_channels, self.in_channels, self.kernel_size, self.kernel_size))
+        return real_kernel
+
+    def call(self, x):
+        x = tf.nn.conv2d(x, self.bayarConstraint(), strides=self.stride, padding='SAME')
+        return x
+        
 def add_random_boxes(img,n_k,size=32):
     h,w = size,size
     img = np.asarray(img)
