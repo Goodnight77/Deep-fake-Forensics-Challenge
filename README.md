@@ -20,7 +20,9 @@ The `scientific_paper/` directory contains the comprehensive scientific paper th
 - [Scientific Paper](#scientific-paper)
 - [Getting Started](#getting-started)
 
-## Preparation 
+## Getting Started
+
+### Follow these steps to get started with the project:
 To begin, you will need to clone this GitHub repository :
 ```bash
 git clone https://github.com/Goodnight77/Deep-fake-Forensics-Challenge.git
@@ -48,9 +50,7 @@ The way (file paths) of how we split the datasets into train/val/test subsets ca
 To replicate the outcomes of the research paper, follow the instructions in the `` directory. This includes training deep learning models on the provided dataset and evaluating them using the designated test set.
 
 
-## Getting Started
 
-Follow these steps to get started with the project:
 
 1. Clone the repository: `git clone https://github.com/Goodnight77/Deep-fake-Forensics-Challenge`
 2. Navigate to the relevant directories for each challenge.
