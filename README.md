@@ -19,7 +19,7 @@ This repository contains the code and documentation for the CS Challenge on Shal
 ## Preparation 
 To begin, you will need to clone this GitHub repository :
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Goodnight77/Deep-fake-Forensics-Challenge.git
 ```
 
 ## Reproduce Results
