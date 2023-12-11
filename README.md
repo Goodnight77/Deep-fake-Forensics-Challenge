@@ -27,11 +27,11 @@ To begin, you will need to clone this GitHub repository :
 ```bash
 git clone https://github.com/Goodnight77/Deep-fake-Forensics-Challenge.git
 ```
-### Navigate to the project directory:
+Navigate to the project directory:
 ```bash 
 cd Deep-fake-Forensics-Challenge
 ```
-### Install the required packages:
+Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
