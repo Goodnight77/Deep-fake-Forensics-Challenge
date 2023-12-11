@@ -1,5 +1,4 @@
 from model import build_resnet50_unet
-from unet_models import Models
 from utils_data import Utils
 import argparse
 
@@ -14,8 +13,6 @@ if __name__ == "__main__" :
                       help="train_data")
     parser.add_argument('--val_dataframe', type=str, default="/path/to/val_data.csv",
                       help="val_data")
-    #parser.add_argument('--mask_p', type=str, default="/output filled data/",
-                      #help="mask_path")
 
     # parser.add_argument('--N_data', type=int,
     #                   help="Data number in the dataframe")
