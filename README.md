@@ -25,6 +25,19 @@ To begin, you will need to clone this GitHub repository :
 ```bash
 git clone https://github.com/Goodnight77/Deep-fake-Forensics-Challenge.git
 ```
+### Navigate to the project directory:
+```bash 
+cd Deep-fake-Forensics-Challenge
+```
+### Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+## Usage
+### To run the project, use the following command:
+```bash
+python main.py --n_epoch 50 --n_bs 32 --train_dataframe /path/to/train_data.csv --val_dataframe /path/to/val_data.csv
+```
 ## Dataset
 The hole dataset we used to train our model can be downloaded from kaggle using this [link](https://www.kaggle.com/datasets/mohamedbenticha/tsyp-cs-challenge).
 
