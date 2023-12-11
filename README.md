@@ -38,6 +38,6 @@ The `scientific_paper/` directory contains the comprehensive scientific paper th
 
 Follow these steps to get started with the project:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+1. Clone the repository: `git clone https://github.com/Goodnight77/Deep-fake-Forensics-Challenge`
 2. Navigate to the relevant directories for each challenge.
 3. Follow the instructions provided in each directory to replicate, enhance, and document the results.
