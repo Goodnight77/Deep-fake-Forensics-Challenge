@@ -11,8 +11,6 @@ This repository contains the code and documentation for the CS Challenge on Shal
 
 You can read our paper from here: [link](https://drive.google.com/file/d/1J-SbeU_iujO9tdgYenbovVpZIYdduaPe/view?usp=sharing).
 
-https://drive.google.com/file/d/1J-SbeU_iujO9tdgYenbovVpZIYdduaPe/view?usp=sharing
-
 ## Table of Contents
 
 - [Getting Started](##Getting-Started)
