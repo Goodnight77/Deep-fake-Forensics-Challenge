@@ -9,6 +9,9 @@ Localization Using Deep Learning
 
 This repository contains the code and documentation for the CS Challenge on Shallow- and Deep-Fake Image Manipulation Localization Using Deep Learning. The challenge involves replicating and enhancing the results of a research paper, drafting a scientific paper, and formulating a startup idea.
 
+You can read our paper from here: [link](https://drive.google.com/file/d/1J-SbeU_iujO9tdgYenbovVpZIYdduaPe/view?usp=sharing).
+
+https://drive.google.com/file/d/1J-SbeU_iujO9tdgYenbovVpZIYdduaPe/view?usp=sharing
 
 ## Table of Contents
 
