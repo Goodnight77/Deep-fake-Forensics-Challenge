@@ -44,4 +44,4 @@ python main.py --n_epoch 50 --n_bs 32 --train_dataframe /path/to/train_data.csv 
 The whole dataset we used to train our model can be downloaded from kaggle using this [link](https://www.kaggle.com/datasets/mohamedbenticha/tsyp-cs-challenge).
 
 ## Train/Val/Test
-The way (file paths) we split the datasets into train/val/test subsets can be downloaded [link](https://www.dropbox.com/s/opjpz9hoy5xm4um/paths.zip?dl=0).
+The way (file paths) we split the datasets into train/val/test subsets can be downloaded [link](https://www.dropbox.com/s/opjpz9hoy5xm4um/paths.zip?dl=0) 
