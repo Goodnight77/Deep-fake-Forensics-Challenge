@@ -149,7 +149,7 @@ plt.title('Predicted Mask')
 
 plt.show()
 
-predicted_mask = predicted_mask * 255
+predicted_mask = predicted_mask * 255*(classif>0.5)
 predicted_mask = predicted_mask.astype(np.uint8)
 
 predicted_mask_image = Image.fromarray(predicted_mask.squeeze(), mode='L')
