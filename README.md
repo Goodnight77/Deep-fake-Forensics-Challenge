@@ -1,6 +1,6 @@
 # Deep-fake-Forensics-Challenge
 Shallow- and Deep- fake Image Manipulation 
-Localization Using Deep Learning 
+Localization Using Deep Learning .
 ![](./images/network-Recovered.png)
 
 # Shallow- and Deep-Fake Image Manipulation Localization
