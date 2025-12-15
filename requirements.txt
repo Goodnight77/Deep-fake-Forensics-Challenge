@@ -1,5 +1,5 @@
-Keras: 2.13.1
-TensorFlow: 2.7.0
-Scikit-learn (sklearn): 0.24.2
-NumPy: 1.24.3
-Matplotlib: 3.7.3
+tensorflow==2.10.1
+Pillow==10.1.0
+keras==2.10.0
+matplotlib==3.8.2
+scikit-learn==1.4.0
